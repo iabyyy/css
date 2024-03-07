@@ -1,0 +1,24 @@
+h1
+{
+    background-color: grey;
+    color: red;
+    margin:auto;
+    text-shadow: 5px 3px green;
+    width: 150px;
+    padding: 5px;
+    border: 3px solid blue;
+}
+p
+{
+    background-image: url("https://kidlingoo.com/wp-content/uploads/flowers_name_in_english.jpg");
+    background-size: cover;
+    color: blue;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    border-top: dashed red;
+    border-right: double green;
+    border-bottom: dotted cyan;
+    border-left: solid orange;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: black;
+        }
+        nav
+        {
+            background-color: black;
+            height: 50px;
+            padding: 20px; 
+            top: 0%;
+            left: 0%;  
+            
+        }
+
+        li a:hover
+        {
+            color: red;
+            
+
+        }
+       
+        li:hover >ul
+        {
+            display:block;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        ul ul
+        {
+            display: none;
+            position: absolute;
+            top: 50;
+            right: 0%;
+
+        }
+        ul
+        {
+            display: flex;
+            float: right;
+        }
+        li
+        {
+            list-style-type: none;
+            padding-right: 30px;
+            position: relative;
+            font-size: 22px;
+        }
+        img
+        {
+            position: absolute;
+            height: 20px;
+            width: 200px;
+            top:5%;
+            left:6%;
+        }
+        h1
+        {
+            color: white;
+            position: absolute;
+            top:200px;
+            font-size: 60px;
+            width: 600px;
+        }
+        h3
+        {
+            color: white;
+            position: absolute;
+            top: 410px;
+            left: 220px;
+            border: 3px solid white;
+            padding: 5px;
+            
+        }
+        h3 a:hover
+        {
+            color: red;
+        }
+        div img
+        {
+            position: relative;
+            top: 30px;
+            left: 450px;
+            height: 600px;
+            width: 1000px;
+           
+        }
+        
+        
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Resorvations</a></li>
+            <li>
+                <a href="#">EN</a>
+                <ul>
+                    <li><a href="#">MAL</a></li>
+                    <li><a href="#">HINDI</a></li>
+                </ul>
+            </li>
+            </ul>
+        </ul>
+        <img src="/images-removebg-preview.png" alt="">
+        <h1>A Premium And Authentic Steakhouse</h1>
+        <h3><a href="#">Book A Table</a> </h3>
+        <div>
+            <img src="/pngtree-scenic-shot-of-delicious-fried-fish-served-on-a-black-pan-image_13806849-removebg-preview.png" alt="">
+        </div>
+      
+    </nav>
+</body>
+</html>
